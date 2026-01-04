@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lejardin-gourmand.fr/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /menu
+Allow: /about
+Allow: /reservations
+Allow: /gallery
+
+# Crawl delay
+Crawl-delay: 1
